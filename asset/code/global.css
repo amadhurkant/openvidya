@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
+
+/* TAG SPECIFICATION START */
+h1 {
+  font: 'Noto Sans';
+}
+
+a {
+  font: 'Noto Sans';
+  color: #EC6532;
+  font-weight: bold;
+  text-decoration: underline #EC6532;
+  text-underline-position: below;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: underline blue;
+}
+/* TAG SPECIFICATION ENDS */
+/* CLASS AND ID SPECIFICATION STARTS */
+.header {
+  background-color: #BFF0C8;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#title {
+  font: 'Noto Sans';
+  font-weight: 600;
+  font-size: 22px;
+  color: #5C5C5C;
+  position: relative;
+  top: 4%;
+  left: 12%;
+}
+
+#donate {
+  position: relative;
+  bottom: 60%;
+  left: 83%;
+}
+#don-btn {
+  width: 120px;
+  height: 30px;
+  border: 0px;
+  border-radius: 2px;
+  font: 'Noto Sans';
+  background-color: #FFDB00;
+}
+
+.content-note {
+  color: red;
+  font: 'Noto Sans';
+  font-weight: bold;
+  text-decoration: underline red;
+}
+
+.study-note {
+  color: green;
+  font: 'Noto Sans';
+  font-weight: bold;
+  text-decoration: underline green;
+}
+/* header done above, now body */
+
+/* CLASS AND ID SPECIFICATION ENDS */

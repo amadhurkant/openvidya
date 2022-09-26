@@ -1,0 +1,32 @@
+.mainhead {
+  position: relative;
+  top: 70px;
+  color: #5C5C5C
+}
+
+.disc-cont {
+  width: 95%;
+  position: relative;
+  top: 90px;
+  margin: 40px;
+  font-size: 110px;
+}
+
+#btn-desk {
+  padding: 30px;
+  border: 1px solid #5C5C5C;
+  background: inherit;
+  margin: 30px;
+}
+
+#btn-desk:hover {
+  background-color: #EC6532;
+  color: #ffffff;
+  border: 1px solid #EC6532;
+}
+
+#cnt-n {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+}
